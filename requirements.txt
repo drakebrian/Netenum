@@ -3,3 +3,4 @@ netifaces
 scapy==2.4.3
 termcolor
 terminaltables
+wheel==0.34.2
