@@ -1,4 +1,4 @@
-#!/usr/bin/python3.7
+#!/usr/bin/python3.6
 import argparse
 from terminaltables import SingleTable
 from scapy.all import *
@@ -15,12 +15,12 @@ class ZeroHosts(Exception):
     pass
 
 def info(msg):
-	return f"[*] {msg}"
+    return f"[*] {msg}"
 
 def print_banner():
-	print("")
-	print(f"{bold(red('---'))} Active hosts enumeration tool {bold(red('---'))}")
-	print("")
+    print("")
+    print(f"{bold(red('---'))} Active hosts enumeration tool {bold(red('---'))}")
+    print("")
 
 def arguments():
     parser = argparse.ArgumentParser()
