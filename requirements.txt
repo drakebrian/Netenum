@@ -1,4 +1,5 @@
-terminaltables
 huepy
 netifaces
+scapy==2.4.3
 termcolor
+terminaltables
